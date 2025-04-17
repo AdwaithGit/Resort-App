@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+//Connector class used for the connection
 public class Connector {
     public static Connection requestConnection() {
         Connection con = null;
